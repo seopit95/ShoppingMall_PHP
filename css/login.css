@@ -1,6 +1,5 @@
 body{
-  display: flex;
-  flex-direction: row;
+  max-width: 100%;
 }
 
 section{
@@ -12,7 +11,7 @@ section{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  min-width: 1200px;
+  min-width: 80%
 }
 
 .login_box{
@@ -54,13 +53,13 @@ form h2{
 .button input{
   margin-top: 30px;
   font-size: 20px;
-  padding: 20px 40px;
-  border: 1px solid gray;
+  padding: 18px 30px;
+  border: 3px solid gray;
   border-radius: 10px;
 }
 
 .button input:hover{
-  border: 1px solid var(--font-color);
+  border: 3px solid var(--font-color);
   background-color: var(--font-color);
   color: white;
   cursor: pointer;
@@ -69,4 +68,9 @@ form h2{
 .login_box a{
   margin-top: 50px;
   padding: 5px;
+}
+
+.login_box a:hover{
+  font-weight: 600;
+  text-decoration: underline;
 }
