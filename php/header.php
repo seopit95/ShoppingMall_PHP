@@ -30,7 +30,7 @@
   <div class="top">
     <div class="brand">
       <h1>
-        <a href="http://<?=$_SERVER['HTTP_HOST'];?>/mall/php/index.php">MALL</a>
+        <a href="http://<?=$_SERVER['HTTP_HOST'];?>/shoppingMall/php/index.php">MALL</a>
       </h1>
     </div>
 
@@ -40,11 +40,11 @@
           if(!$userid){
         ?>
         <li>
-          <a href="http://<?=$_SERVER['HTTP_HOST'];?>/mall/php/login/login_form.php">LOGIN</a>
+          <a href="http://<?=$_SERVER['HTTP_HOST'];?>/shoppingMall/php/login/login_form.php">LOGIN</a>
         </li>
         <li>&nbsp;</li>
         <li>
-          <a href="http://<?=$_SERVER['HTTP_HOST'];?>/mall/php/register/register_form.php">JOIN</a>
+          <a href="http://<?=$_SERVER['HTTP_HOST'];?>/shoppingMall/php/register/register_form.php">JOIN</a>
         </li>
         <?php
           }else{
