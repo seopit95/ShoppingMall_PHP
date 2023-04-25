@@ -1,4 +1,6 @@
 <?php
+  include_once("../db/create_statement.php");
+
   session_start();
   $userid = $username = $userpoint = $usergrader = "";
 

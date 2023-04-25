@@ -24,7 +24,7 @@
             email char(80) not null,
             point int,
             grade char(5),
-            regist_day char(30)
+            regist_day char(30),
             constraint pk_members_num primary key(num)
             ) ENGINE=InnoDB DEFAULT CHARSET=utf8;";
           break;
