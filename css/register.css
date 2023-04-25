@@ -1,0 +1,85 @@
+body{
+  display: flex;
+  flex-direction: row;
+}
+
+section{
+  display: flex;
+  flex-direction: row;
+}
+
+.register_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 1200px;
+}
+
+form{
+  border: 2px solid gray;
+  border-radius: 30px;
+  padding: 30px 150px;
+}
+
+form h2{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.form{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.col1{
+  width: 150px;
+  line-height: 30px;
+}
+
+.col2 input{
+  width: 250px;
+  height: 25px;
+}
+
+#id{
+  width: 200px;
+}
+
+#idcheck, #search{
+  width: 70px;
+  height: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#name{
+  width: 150px;
+}
+
+#phone{
+  width: 50px;
+  text-align: center;
+}
+
+#address{
+  width: 100px;
+}
+
+#address2{
+  margin-left: 150px;
+}
+
+#email{
+  width: 150px;
+}
+
+.button{
+  text-align: center;
+}
+.button input{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+}
