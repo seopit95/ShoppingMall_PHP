@@ -42,7 +42,7 @@
         </div>
         <div class="form">
           <div class="col1">우편번호<font color="red">*</font></div>
-          <div class="col2"><input type="text" name="address1" id="address"></div><span><button type="button" id="search" onclick="addressSearch()">검색</button></span>
+          <div class="col2"><input type="text" name="address1" id="address"></div><span><button type="button" id="search" onclick="addressSearch();">검색</button></span>
         </div>
         <div class="col2"><input type="text" name="address2" id="address2" placeholder="기본주소" readonly></div><br>
         <div class="col2"><input type="text" name="address3" id="address2" placeholder="상세주소"></div><br>
@@ -53,12 +53,12 @@
             <option value="이메일 선택">이메일 선택</option>
             <option value="naver.com">naver.com</option>
             <option value="nate.com">nate.com</option>
-            <option value="google.com">googlec.com</option>
+            <option value="google.com">gmail.com</option>
             <option value="daum.net">daum.net</option>
           </select>
         </div>
         <div class="button">
-          <input type="button" value="회원가입" onclick="blankCheck()"><br>
+          <input type="button" value="회원가입" onclick="blankCheck();"><br>
           <a href="../login/login_form.php">이미 가입한 계정이 있으신가요?</a>
         </div>
       </form>
